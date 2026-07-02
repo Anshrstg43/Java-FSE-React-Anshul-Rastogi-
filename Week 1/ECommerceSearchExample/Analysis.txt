@@ -1,0 +1,9 @@
+1. Understand Asymptotic Notation
+Big O Notation: It is a mathematical notation used to describe the upper bound of an algorithm's time or space complexity. It helps in analyzing algorithms by expressing how the runtime grows as the input size (n) increases, allowing developers to predict performance at scale.
+Best-case scenario: The target element is found at the very first position checked. The time complexity is O(1).
+Average-case scenario: The target element is found somewhere in the middle of the dataset. For linear search, it is O(n). For binary search, it is O(log n).
+Worst-case scenario: The target element is at the last position checked or does not exist in the dataset. For linear search, it is O(n). For binary search, it is O(log n).
+
+4. Analysis
+Time Complexity Comparison: Linear Search has a worst-case time complexity of O(n), meaning the search time grows directly in proportion to the number of products. Binary Search has a worst-case time complexity of O(log n), meaning the search time grows very slowly, dividing the dataset in half with each step.
+Suitability: Binary Search is much more suitable for an e-commerce platform. E-commerce platforms typically have massive databases of products. An O(log n) algorithm ensures near-instant search results even with millions of items, provided the array of products is sorted by the search key (like productId).
