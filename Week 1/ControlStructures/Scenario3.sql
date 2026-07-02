@@ -1,16 +1,15 @@
 DECLARE
 BEGIN
-
     FOR rec IN (
-        SELECT c.CustomerName, l.LoanID, l.DueDate
+
+        SELECT c.Name, l.LoanID, l.EndDate
         FROM Customers c
         JOIN Loans l ON c.CustomerID = l.CustomerID
-        WHERE l.DueDate BETWEEN SYSDATE AND SYSDATE + 30
+        WHERE l.EndDate BETWEEN SYSDATE AND SYSDATE + 30
     ) LOOP
-
-        DBMS_OUTPUT.PUT_LINE('Reminder: Customer ' || rec.CustomerName || 
+        DBMS_OUTPUT.PUT_LINE('Reminder: Customer ' || rec.Name || 
                              ', your loan (' || rec.LoanID || 
-                             ') is due on ' || TO_CHAR(rec.DueDate, 'YYYY-MM-DD') || '.');
+                             ') is due on ' || TO_CHAR(rec.EndDate, 'YYYY-MM-DD') || '.');
     END LOOP;
 END;
 /
