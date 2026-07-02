@@ -1,0 +1,12 @@
+1. Understand Recursive Algorithms
+
+Concept of Recursion:
+Recursion is when a method calls itself to solve a smaller piece of the same problem. Think of it like a set of Russian nesting dolls. Instead of using a traditional loop (like a 'for' or 'while' loop), a recursive function keeps calling itself with slightly modified data until it hits a "base case" (a stopping condition). This simplifies problems that naturally build on themselves over time, like calculating compound interest or predicting future financial growth year by year.
+
+4. Analysis
+
+Time Complexity:
+The time complexity of this simple recursive algorithm is O(n), where $n$ is the number of years we are forecasting. This is because the method calls itself exactly one time for each year. If we forecast 10 years, it makes 10 method calls.
+
+Optimization:
+While O(n) is efficient enough for small values, recursive algorithms can suffer from "excessive computation" if they calculate the same overlapping subproblems multiple times (like in the Fibonacci sequence). To optimize this and avoid duplicate work, we can use a technique called "Memoization." This involves storing previously calculated results in a data structure (like an array or HashMap). Before doing a new calculation, the algorithm checks the map to see if it already knows the answer, saving time and processing power.
