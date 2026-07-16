@@ -33,3 +33,12 @@ To run these microservices locally, open two separate terminal windows and navig
 Run the following command in each terminal:
 ```bash
 ./mvnw spring-boot:run
+```
+
+## Output Screenshots
+
+### Account Microservice Output (Port 8080)
+![Account Service Output](account-output.png)
+
+### Loan Microservice Output (Port 8081)
+![Loan Service Output](loan-output.png)
