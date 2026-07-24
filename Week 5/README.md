@@ -1,7 +1,7 @@
 # Week 5: ReactJS Introduction & Components
 
 ## Overview
-This repository contains the hands-on exercises for Week 5, focusing on Single-Page Applications (SPAs), setting up a local React environment, building class components, and using functional components with props and custom CSS.
+This repository contains the hands-on exercises for Week 5, focusing on Single-Page Applications (SPAs), setting up a local React environment, building class components, using functional components with props, and utilizing component lifecycle methods.
 
 ---
 
@@ -28,10 +28,21 @@ This repository contains the hands-on exercises for Week 5, focusing on Single-P
 ---
 
 ## Exercise 3: Score Calculator App
-* **Objective:** Create a functional React component (`CalculateScore`), pass data into it using props, and apply custom CSS styling for specific elements.
+* **Objective:** Create a functional React component (`CalculateScore`), pass data into it using props, and apply custom CSS styling.
 * **How to run:** 
   1. Navigate to the project folder: `cd "Week 5/scorecalculatorapp"`
   2. Start the server: `npm start`
 
 ### Output Screenshot
 ![Score Calculator Output](scorecalculator-output.png)
+
+---
+
+## Exercise 4: Blog App (Lifecycle Hooks & Fetch API)
+* **Objective:** Implement the `componentDidMount()` lifecycle hook to fetch data from an external API (`jsonplaceholder`) and render it using a custom class component.
+* **How to run:** 
+  1. Navigate to the project folder: `cd "Week 5/blogapp"`
+  2. Start the server: `npm start`
+
+### Output Screenshot
+![Blog App Output](blogapp-output.png)
