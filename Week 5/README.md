@@ -1,33 +1,26 @@
-# Week 5: Introduction to ReactJS
+# Week 5: ReactJS Introduction & Components
 
 ## Overview
-This repository contains the hands-on exercise for Week 5, which introduces Single-Page Applications (SPAs) and ReactJS fundamentals.
+This repository contains the hands-on exercises for Week 5, focusing on Single-Page Applications (SPAs), setting up a local React environment, and building class components.
 
-## Objectives Achieved
-* Set up a local React development environment.
-* Installed `create-react-app` globally via NPM.
-* Generated a new React application named `myfirstreact`.
-* Modified the root `App.js` component to render custom text.
-* Applied inline CSS styling to center the output on the screen.
+---
 
-## Technologies Used
-* **ReactJS**
-* **Node.js & NPM**
-* **HTML/JSX & CSS**
+## Exercise 1: MyFirstReact App
+* **Objective:** Set up a React development environment using `create-react-app` and render a centered heading.
+* **How to run:** 
+  1. Navigate to the project folder: `cd "Week 5/myfirstreact"`
+  2. Start the server: `npm start`
 
-## How to Run
-To run this application locally:
-1. Open a terminal and navigate to the project folder:
-   ```bash
-   cd "Week 5/myfirstreact"
-   ```
-2. Start the development server:
-   ```bash
-   npm start
-   ```
-3. The application will be available in your browser at `http://localhost:3000`.
-
-## Output Screenshot
-Below is the final output of the React application running locally, demonstrating the updated and centered text component:
-
+### Output Screenshot
 ![React App Output](react-output.png)
+
+---
+
+## Exercise 2: Student Management Portal (StudentApp)
+* **Objective:** Create a React application utilizing multiple class components (`Home`, `About`, and `Contact`) and render them simultaneously from the main App component.
+* **How to run:** 
+  1. Navigate to the project folder: `cd "Week 5/studentapp"`
+  2. Start the server: `npm start`
+
+### Output Screenshot
+![Student App Output](studentapp-output.png)
