@@ -1,7 +1,7 @@
 # Week 5: ReactJS Introduction & Components
 
 ## Overview
-This repository contains the hands-on exercises for Week 5, focusing on Single-Page Applications (SPAs), setting up a local React environment, and building class components.
+This repository contains the hands-on exercises for Week 5, focusing on Single-Page Applications (SPAs), setting up a local React environment, building class components, and using functional components with props and custom CSS.
 
 ---
 
@@ -24,3 +24,14 @@ This repository contains the hands-on exercises for Week 5, focusing on Single-P
 
 ### Output Screenshot
 ![Student App Output](studentapp-output.png)
+
+---
+
+## Exercise 3: Score Calculator App
+* **Objective:** Create a functional React component (`CalculateScore`), pass data into it using props, and apply custom CSS styling for specific elements.
+* **How to run:** 
+  1. Navigate to the project folder: `cd "Week 5/scorecalculatorapp"`
+  2. Start the server: `npm start`
+
+### Output Screenshot
+![Score Calculator Output](scorecalculator-output.png)
