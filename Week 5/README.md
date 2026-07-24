@@ -1,7 +1,7 @@
 # Week 5: ReactJS Introduction & Components
 
 ## Overview
-This repository contains the hands-on exercises for Week 5, focusing on Single-Page Applications (SPAs), setting up a local React environment, building class components, using functional components with props, and utilizing component lifecycle methods.
+This repository contains the hands-on exercises for Week 5, focusing on Single-Page Applications (SPAs), setting up a local React environment, building class components, using functional components with props, utilizing component lifecycle methods, and applying CSS Modules.
 
 ---
 
@@ -46,3 +46,14 @@ This repository contains the hands-on exercises for Week 5, focusing on Single-P
 
 ### Output Screenshot
 ![Blog App Output](blogapp-output.png)
+
+---
+
+## Exercise 5: Cohort Tracker App (CSS Modules & Inline Styling)
+* **Objective:** Style React components dynamically using Inline Styles based on prop data (conditional colors) and scope CSS locally using CSS Modules.
+* **How to run:** 
+  1. Navigate to the project folder: `cd "Week 5/cohorttracker"`
+  2. Start the server: `npm start`
+
+### Output Screenshot
+![Cohort Tracker Output](cohorttracker-output.png)

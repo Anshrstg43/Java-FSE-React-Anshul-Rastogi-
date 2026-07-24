@@ -1,0 +1,12 @@
+.box {
+    width: 300px;
+    display: inline-block;
+    margin: 10px; /* Overall 10px margin */
+    padding: 10px 20px; /* Top/bottom 10px, left/right 20px */
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+dt {
+    font-weight: 500;
+}
