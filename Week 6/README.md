@@ -30,3 +30,15 @@ This repository contains the hands-on exercises for Week 6, focusing on integrat
 ### Output Screenshot
 *Displays the mapped office space data with conditional red styling for rent <= 60,000.*
 ![Office Space Output](officespace-output.png)
+
+---
+
+## Exercise 11: Event Examples App
+* **Objective:** Implement React event handling, use synthetic events, pass arguments to event handlers, and manage form submissions using state.
+* **How to run:** 
+  1. Navigate to the project folder: `cd "Week 6/eventexamplesapp"`
+  2. Start the server: `npm start`
+
+### Output Screenshot
+*Displays the interactive counter, parameter-driven event buttons, and the currency converter form.*
+![Event Examples Output](eventexamples-output.png)
