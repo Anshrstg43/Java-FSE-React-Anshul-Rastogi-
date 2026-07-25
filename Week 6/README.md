@@ -42,3 +42,15 @@ This repository contains the hands-on exercises for Week 6, focusing on integrat
 ### Output Screenshot
 *Displays the interactive counter, parameter-driven event buttons, and the currency converter form.*
 ![Event Examples Output](eventexamples-output.png)
+
+---
+
+## Exercise 12: Ticket Booking App (Conditional Rendering)
+* **Objective:** Implement conditional rendering in React using element variables and conditional logic (`if/else`) to display different components based on user state.
+* **How to run:** 
+  1. Navigate to the project folder: `cd "Week 6/ticketbookingapp"`
+  2. Start the server: `npm start`
+
+### Output Screenshot
+*Displays the toggleable UI based on the user's login state.*
+![Ticket Booking Output](ticketbooking-output.png)
