@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.mystyle1, .st2, .v1 {
+  padding: 0 40px;
+  text-align: center;
+}
+
+.st2 {
+  border-left: 3px solid #2e7d32; 
+  border-right: 3px solid #2e7d32;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}

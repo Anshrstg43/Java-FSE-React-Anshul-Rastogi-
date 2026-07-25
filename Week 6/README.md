@@ -54,3 +54,15 @@ This repository contains the hands-on exercises for Week 6, focusing on integrat
 ### Output Screenshot
 *Displays the toggleable UI based on the user's login state.*
 ![Ticket Booking Output](ticketbooking-output.png)
+
+---
+
+## Exercise 13: Blogger App (Lists, Keys, and Multiple Components)
+* **Objective:** Create an application utilizing multiple sub-components (`BookDetails`, `BlogDetails`, `CourseDetails`), render dynamic lists of data using the `.map()` function, and properly assign unique `key` props to generated elements.
+* **How to run:** 
+  1. Navigate to the project folder: `cd "Week 6/bloggerapp"`
+  2. Start the server: `npm start`
+
+### Output Screenshot
+*Displays three sub-components rendered side-by-side mapped from data arrays.*
+![Blogger App Output](bloggerapp-output.png)
